@@ -20,7 +20,6 @@ const resizeOps = () => {
 
 html, body {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 #gomatha-img {
@@ -158,7 +157,7 @@ html, body {
     font-size: 40px;
 }
 .mytabs .tab .urgent {
-    font-size: 90px;
+    font-size: 60px;
 }
 .mytabs {
     display:flex;
